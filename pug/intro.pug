@@ -1,0 +1,22 @@
+html
+  head
+    link(rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Tomotoes/font/font.min.css" )
+    link(rel='stylesheet', type='text/css', href='./common.css')
+    link(rel='stylesheet', type='text/css', href='./pages.css')
+    link(rel='stylesheet', type='text/css', href='./intro-arrow.css')
+    link(rel='stylesheet', type='text/css', href='./intro-content.css')
+    link(rel='stylesheet', type='text/css', href='./intro-background.css')
+  body
+    .page#page-intro
+      canvas#intro-background
+      script(type='module' src='./intro-background.js')
+      .intro-content
+        h1.intro-content-title Loong
+        p.intro-content-subtitle Hi everyone, I'm a game server engineer. Welcome to my page!
+      script(type='module' src='./intro-content.js')
+      .intro-arrow.intro-arrow-1
+      .intro-arrow.intro-arrow-2
+      a.intro-enter click here for more
+    .page#page-main
+  
+  script(src='./pages.js')
