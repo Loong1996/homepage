@@ -1,0 +1,62 @@
+
+/* -------------------------- 
+ * 页脚信息
+ * -------------------------- */
+.page-footer {
+    height: 1rem;
+    font-size:1rem;
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    text-align: center;
+
+    font-family: Comic Sans MS, Helvetica Neue, Microsoft Yahei, -apple-system, sans-serif;
+    color: #b3b3b3;
+
+    z-index: 3;
+    
+}
+
+.page-footer img {
+    height: 100%;
+    object-fit: cover; /* 保证图片始终填充 div */
+}
+
+@media screen and (max-height: 40em) {
+    .page-footer {
+        height: 0.8rem;
+        font-size:0.8rem;
+    }
+}
+
+.page-flooter-info {
+    color: #808080;
+    text-decoration: none;
+    user-select: none; /* 标准属性 */
+}
+/* 
+.intro-icpbeian.key {
+    display: inline-block;
+    background-color: #33333371;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.intro-icpbeian.val {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: inline-block;
+    background-color: #5f5f5f;
+}
+
+.intro-policebeian.key {
+    display: inline-block;
+    background-color: #33333371;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.intro-policebeian.val {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: inline-block;
+    background-color: #5f5f5f;
+} */
