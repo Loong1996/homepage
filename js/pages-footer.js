@@ -7,9 +7,9 @@ let infos = [
         href: 'http://beian.miit.gov.cn/'
     },
     {
-        text: '豫公网安备41148102000254号',
+        text: '闽公网安备35010402351226号',
         img: 'https://web.xxmd.com/wp-content/themes/b2/Assets/fontend/images/beian-ico.png',
-        href: 'https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=41148102000254'
+        href: 'https://beian.mps.gov.cn/#/query/webSearch'
     }
 ];
 
