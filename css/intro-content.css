@@ -35,6 +35,11 @@
 /* -------------------------- 
  * 标题
  * -------------------------- */
+.intro-content-title-div {
+    position: relative;
+    display: flex;
+}
+
 .intro-content-title {
     /* text-align: center; */
     font-family: "Comic Sans MS", cursive, sans-serif;
@@ -63,6 +68,11 @@
     to {
         text-shadow: 0 0 .5px #fff,0 0 1px #fff,0 0 1.5px #fff,0 0 2px #333,0 0 4px #333,0 0 5px #333,0 0 6px #333,0 0 8px #333
     }
+}
+
+.intro-content-title-mark {
+    font-size: 1.5rem;
+    margin-top: auto;
 }
 
 /* -------------------------- 

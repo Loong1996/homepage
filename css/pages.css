@@ -15,6 +15,6 @@
 }
 
 #page-main {
-    background: #3498db;
+    background: radial-gradient(#313131, #0a0a0a);
     z-index: 1;
 }
