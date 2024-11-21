@@ -85,10 +85,7 @@
     font-size: 2vmax;
     font-weight: 100;
     /* text-shadow: 0 0 4px #fff; */
-
     transition: all 0.3s;
-
-    
 }
 
 @media screen and (max-width: 50em) {
