@@ -14,6 +14,8 @@ function flipPage() {
     {
       page_idx = 1;
       pages[0].style.transform = `translateY(-100%)`;
+      pages[0].style.visibility = 'hidden';
+      pages[1].style.visibility = 'visible';
     }
 }
 
